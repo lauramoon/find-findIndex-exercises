@@ -16,7 +16,9 @@ describe("#findUserByUsername", function() {
 });
 
 describe("#removeUser", function() {
-  let users;
+  //let users;
+  // Laura Moon note: commented out above declaration and moved to other script
+  // because function changes users. Otherwise, won't pass tests.
   beforeEach(function(){
       users = [
         { username: "mlewis" },
